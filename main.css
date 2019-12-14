@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+      to right,
+      rgba(50, 119, 113, 0.7),
+      rgba(50, 119, 113, 0.7)
+    ),
+    url("img/bg.jpg");
+  background-position: top;
+}
+
+.container {
+  padding-top: 100px;
+  margin: 0 45px;
+}
+
+h1 {
+  color: #013244;
+  font-size: 110px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  font-weight: 600;
+}
+
+p {
+  font-size: 22px;
+  color: #01111c;
+  margin-bottom: 60px;
+}
+
+button {
+  background-color: #019cb0;
+  padding: 14px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 3px 4px 20px 1px #019cb0;
+}
+
+button:hover {
+  transform: translateY(-4px);
+}
+
+/* 
+  Subscribe and don't forget to like the video if you like it 
+  and leave a comment down below
+
+  link to this video files in the description
+*/
